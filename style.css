@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0; 
+  font-family: Arial, sans-serif;
+  background-color: yellow;
+}
+/* ======= CONTENTS ======= */
+.contents {
+  padding: 10px;
+}
+
+/* ======= gallery ======= */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 7px;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 5px;
+
+}
+
+/* ======= MENU ======= */
+#menu {
+    background-color: rgb(0, 0, 0);
+    padding-top: 12px;
+    width: 100%;
+    height: 40px; 
+}
+
+#menu a{
+    color: white;
+    font-family: Helvetica;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 1000px;
+    padding-left: 50px;
+}
+#menu a:hover{
+ color: yellow;
+}
+
+
+/* ======= text ======= */
+#text {
+  text-align: center;
+  margin: 10px auto;
+  padding: 0;
+  max-width: 700px;
+}
+h4 {
+    color: #5077bd;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* ======= avengers1 ======= */
+#avengers1 {
+margin: 0;
+}
+#avengers1 img{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#avengers1 h2{
+    text-align: center;
+}
+
+#avenger-texts{
+    padding: 10px;
+}
+
+/* ======= avengers2 ======= */
+#avengers2 {
+margin: 0;
+}
+#avengers2 img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#avengers2 h2 {
+    text-align: center;
+}
+#avengers2-texts{
+    padding: 10px;
+}
+
+/* ======= avengers4 ======= */
+#avengers3 {
+    margin: 0;
+}
+
+#hulk img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#avenger3-texts{
+    padding: 30px;
+}
+#hulk h2{
+    text-align: center;
+}
+
+/* ======= avengers4 ======= */
+#hawkeye {
+    margin: 0;
+}
+#hawkeye img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#hawkeye h2{
+    text-align: center;
+}
+#avengers4-text{
+    padding: 10px;
+}
+
+/* ======= avengers5 ======= */
+#captain{
+    margin: 0;
+}
+
+#captain img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#captain h2{
+    text-align: center;
+}
+#avengers5-text{
+    padding: 10px;
+}
+
+
+/* ======= avengers6 ======= */
+#blackwidow {
+    margin: 0;
+}
+#blackwidow img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#blackwidow h2{
+    text-align: center;
+}
+#avenger6-texts{
+    padding: 10px;
+}
+
+/* ======= aboutpage ======= */
+#container{
+    margin: 0;
+    padding: 10px;
+}
+
+/* ======= contctpage ======= */
+#contact-container{
+    margin: 0;
+    padding: 10px;
+}
+
+#contact-phone{
+font-family: helvetica;
+background-color: yellow;
+  padding: 7px;         
+  max-width: 150px;      
+  margin: 0px;     
+  border-radius: 10px;  
+
+}
+
+#contact-email{
+font-family: helvetica;
+background-color: yellow;
+  padding: 7px;        
+  max-width: 245px;      
+  margin-top: 10px;   
+  border-radius: 10px;  
+}
+
+#contact-web{
+font-family: helvetica;
+background-color: yellow;
+  padding: 7px;      
+  max-width: 302px;     
+  margin-top: 10px;    
+  border-radius: 10px;  
+
+}
+
+/* ======= contctpage imagelink ======= */
+.contact-page{
+    background-color: white;
+}
+#contact-phone a{
+    text-decoration: none;
+    color: black;
+}
+#contact-email a{
+    text-decoration: none;
+    color: black;
+}
+#contact-web a{
+    text-decoration: none;
+    color: black;
+}
+
+#contact-phone a:hover{
+    color: white;
+}
+#contact-email a:hover{
+    color: white;
+}
+#contact-web a:hover{
+    color: white;
+}
+
+
+
+
+
